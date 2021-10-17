@@ -1,0 +1,37 @@
+.ambulance-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading {
+  color: #ee5a24;
+  font-weight: bold;
+  font-style: italic;
+}
+.ambulance-section img {
+  width: 70%;
+}
+.contact {
+  margin-right: 80px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.contact h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #ee5a24;
+}
+.contact i {
+  margin-right: 20px;
+}
+
+@media (max-width: 576px) {
+  .ambulance-section {
+    display: block;
+    text-align: center;
+  }
+  .contact {
+    margin-top: 40px;
+  }
+}
