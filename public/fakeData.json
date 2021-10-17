@@ -4,23 +4,96 @@
     "name": "Tooth Care",
     "price": 2000,
     "title": "Tooth Problem is very crictical issue",
-    "desc": "If youre interested in learning how WebFX can create a healthcare content marketing strategy for your facility, to speak with a strategist, or keep reading to learn more about content marketing for hospitals and healthcare providers",
+    "desc": "Disease, any harmful deviation from the normal structural or functional state of an organism, generally associated with certain signs and symptoms and differing in nature from physical injury. A diseased organism commonly exhibits.",
     "img": "https://static.toiimg.com/photo/msid-68907805/68907805.jpg?462462"
   },
   {
-    "id": 101,
-    "name": "Tooth Care",
-    "price": 2000,
-    "title": "Tooth Problem is very crictical issue",
+    "id": 102,
+    "name": "cancer types",
+    "price": 20000,
+    "title": "we have expert doctor for this job",
     "desc": "If youre interested in learning how WebFX can create a healthcare content marketing strategy for your facility, to speak with a strategist, or keep reading to learn more about content marketing for hospitals and healthcare providers",
-    "img": "https://static.toiimg.com/photo/msid-68907805/68907805.jpg?462462"
+    "img": "https://www.wcrf.org/wp-content/uploads/2021/04/Breast.png"
   },
   {
-    "id": 101,
-    "name": "Tooth Care",
-    "price": 2000,
-    "title": "Tooth Problem is very crictical issue",
+    "id": 103,
+    "name": "eye diseases and disorders",
+    "price": 1500,
+    "title": "have MBBS  for this issue",
+    "desc": "A diseased organism commonly exhibits signs or symptoms indicative of its abnormal state. Thus, the normal condition of an organism must be understood in order to recognize the hallmarks of disease. Nevertheless, a sharp demarcation.",
+    "img": "https://images.onhealth.com/images/slideshow/eye_diseases_and_cond_s13_chalazion.jpg"
+  },
+  {
+    "id": 104,
+    "name": "heart disorders",
+    "price": 5500,
+    "title": "We have 15 Years experience doctor",
+    "desc": "The study of disease is called pathology. It involves the determination of the cause (etiology) of the disease, the understanding of the mechanisms of its development (pathogenesis), the structural changes associated with the disease process.",
+    "img": "https://guardian.ng/wp-content/uploads/2016/08/Heart-diseases.jpg"
+  },
+  {
+    "id": 105,
+    "name": "liver infection",
+    "price": 6800,
+    "title": "we give best facilitics liver patient",
+    "desc": "Humans, other animals, and plants are all susceptible to diseases of some sort. However, that which disrupts the normal functioning of one type of organism may have no effect on the other types.of the mechanisms of its development structura.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB3DUuDQQFBFU514iy0FjiiWHqUMSnHp2QVA&usqp=CAU"
+  },
+  {
+    "id": 106,
+    "name": "voice disorders",
+    "price": 1200,
+    "title": "this is major problem,have doctor",
+    "desc": "The normal state of an organism represents a condition of delicate physiological balance, or homeostasis, in terms of chemical, physical, and functional processes, maintained by a complex of mechanisms that are not fully understood. In a fundamental sense.",
+    "img": "https://healthjade.net/wp-content/uploads/2018/02/voice-disorders.jpg"
+  },
+  {
+    "id": 107,
+    "name": "neurological disorders",
+    "price": 8800,
+    "title": "we have doctor for this dieases from USA",
+    "desc": "In a fundamental sense, therefore, disease represents the consequences of a breakdown of the homeostatic control mechanisms. In some instances the affected mechanisms are clearly indicated, but in most cases a complex of mechanisms is disturbed, initially.",
+    "img": "https://www.thestatesman.com/wp-content/uploads/2021/07/QT-Neurological-disorders.jpg"
+  },
+  {
+    "id": 108,
+    "name": " genetic disorders",
+    "price": 7500,
+    "title": "we have expert doctor for this job",
+    "desc": "Death in humans and other mammals, for example, often results directly from heart or lung failure, but the preceding sequence of events may be highly complex, involving disturbances of other organ systems and derangement of other control mechanisms.",
+    "img": "https://medlineplus.gov/images/GeneticDisorders.jpg"
+  },
+  {
+    "id": 109,
+    "name": "mentality disorder",
+    "price": 2500,
+    "title": "we have a good psychiatrist",
     "desc": "If youre interested in learning how WebFX can create a healthcare content marketing strategy for your facility, to speak with a strategist, or keep reading to learn more about content marketing for hospitals and healthcare providers",
-    "img": "https://static.toiimg.com/photo/msid-68907805/68907805.jpg?462462"
+    "img": "https://static.vecteezy.com/system/resources/thumbnails/002/303/586/small/mental-health-due-to-psychology-depression-loneliness-illness-brain-development-or-hopelessness-psychotherapy-and-mentality-healthcare-illustration-vector.jpg"
+  },
+  {
+    "id": 110,
+    "name": "vulvovaginal disorders",
+    "price": 3300,
+    "title": "A specialist for this disease",
+    "desc": "Death in humans and other mammals, for example, often results directly from heart or lung failure, but the preceding sequence of events may be highly complex, involving disturbances of other organ systems and derangement of other control mechanisms.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKGdi-X-15FNDaXaeKkzuTT2phxidhafiDUkFv8USzkUjWfEvi-lpgFvvmWfU0t7Rb7L4&usqp=CAU"
+  },
+  {
+    "id": 111,
+    "name": "intestinal diseases",
+    "price": 3000,
+    "title": "we have a good doctor here for intention disease",
+    "desc": "If youre interested in learning how WebFX can create a healthcare content marketing strategy for your facility, to speak with a strategist, or keep reading to learn more about content marketing for hospitals and healthcare providers",
+    "img": "https://ultra-dd.org/sites/www.ultra-dd.org/files/diseases/IBD.png"
+  },
+  {
+    "id": 112,
+    "name": "endocrine diseases",
+    "price": 2200,
+    "title": "we have expert doctor for this job",
+    "desc": "The study of disease is called pathology. It involves the determination of the cause (etiology) of the disease, the understanding of the mechanisms of its development (pathogenesis), the structural changes associated with the disease process.",
+    "img": "https://static.endocrineweb.com/sites/default/files/imagecache/home-pick-2015/lead-images/article/63000-istock-1132506171.jpg"
   }
+  
 ]
