@@ -9,7 +9,7 @@ const Header = () => {
             </div>
             <div className="menu">
                  <NavLink to="/home">Home</NavLink>
-                 <NavLink to="/home">Home</NavLink>
+                 <NavLink to="/doctors">Doctors</NavLink>
                  <NavLink to="/home">Home</NavLink>
             </div>
         </div>

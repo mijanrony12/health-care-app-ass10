@@ -1,0 +1,39 @@
+[
+  {
+    "id": 101,
+    "name": "Dr. tasnim jara",
+    "degree": "MBBS, UK",
+    "img": "https://i.ibb.co/6J4Qggq/doctor1.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Dr. John Smith",
+    "degree": "MBBS, Dhaka",
+    "img": "https://i.ibb.co/KK4pSBb/doctor2.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Dr. Ferdaus Khan",
+    "degree": "MBBS, USA",
+    "img": "https://i.ibb.co/VNHJ2F9/doctor3.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Dr. Doe jhon",
+    "degree": "MBBS, Canada",
+    "img": "https://i.ibb.co/zrfVn41/doctor4.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Dr. Kamrul Hasan",
+    "degree": "MBBS, BD",
+    "img": "https://i.ibb.co/BjbvvSy/doctor5.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Dr. Susmita Roy",
+    "degree": "MBBS, USA",
+    "img": "https://i.ibb.co/6XwsK0N/doctor6.jpg"
+  }
+]
+

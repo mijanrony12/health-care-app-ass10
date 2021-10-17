@@ -1,0 +1,44 @@
+.work-item {
+  position: relative;
+  overflow: hidden;
+}
+.work-item img {
+  width: 100%;
+  height: 400px;
+}
+.work-overlay {
+  background: rgba(21, 164, 250, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.work-item:hover .work-overlay {
+  right: 0;
+}
+.work-overlay ul {
+  padding: 0px;
+  display: flex;
+}
+.work-overlay ul li {
+  list-style: none;
+  padding: 15px 15px;
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: #fff;
+}
+.icon span {
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.icon ul li i {
+  font-size: 1.5rem;
+}
