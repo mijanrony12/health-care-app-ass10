@@ -1,0 +1,31 @@
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #341f97;
+  color: #fff;
+  padding: 20px 0px;
+}
+.footer-section span {
+  margin-left: 10px;
+}
+
+.footer-section span a {
+  text-decoration: none;
+  color: #fff;
+}
+.social {
+  text-align: center;
+  margin-top: 30px;
+}
+.social i {
+  font-size: 32px;
+  margin: 10px 10px;
+}
+
+@media (max-width: 576px) {
+  .footer-section {
+    display: block;
+    text-align: center;
+  }
+}
