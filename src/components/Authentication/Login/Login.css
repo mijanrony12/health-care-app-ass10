@@ -1,0 +1,12 @@
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+}
+.login-form input {
+  margin: 10px 0px;
+}
+.google {
+  text-align: center;
+}

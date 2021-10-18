@@ -18,3 +18,14 @@
 .service img:hover {
   transform: translate(0px, -10px);
 }
+.btn-design {
+  text-align: center;
+}
+.btn-design button {
+  background-color: #ee5a24;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
