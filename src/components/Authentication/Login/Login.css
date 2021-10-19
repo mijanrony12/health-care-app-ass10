@@ -1,12 +1,14 @@
-.login-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px 0px;
+.form-desgin {
+  width: 50%;
+  margin: 60px auto;
+  box-shadow: 5px 5px 10px #000;
+  border-radius: 8px;
+  padding: 20px;
 }
 .login-form input {
   margin: 10px 0px;
 }
 .google {
   text-align: center;
+  margin-top: 20px;
 }

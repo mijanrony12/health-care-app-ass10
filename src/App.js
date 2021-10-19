@@ -9,6 +9,7 @@ import Error from './components/Error/Error';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/HomePage/Home/Home';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Services from './components/Services/Services';
 import AuthProvider from './Context/AuthProvider';
 
@@ -28,9 +29,9 @@ function App() {
                         <Route exact path="/services">
                                   <Services></Services>
                       </Route>
-                        <Route exact path="/details/:id">
+                        <PrivateRoute exact path="/details/:id">
                                   <Details></Details>
-                      </Route>
+                      </PrivateRoute>
                         <Route exact path="/doctors">
                                   <Doctors></Doctors>
                       </Route>
