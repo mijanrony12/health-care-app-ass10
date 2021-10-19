@@ -3,6 +3,7 @@ import './Doctor.css'
 const Doctor = ({ doctor }) => {
     const { img, name} = doctor;
     return (
+            //    show our doctors
                      <div class="col-md-4 container">
                             <div class="work-item">
                                 <img src={img} alt="" />

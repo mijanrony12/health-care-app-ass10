@@ -3,23 +3,30 @@ import { NavLink } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 import './Header.css'
 const Header = () => {
-    const {user,logOut}=useAuth()
+    const { user, logOut } = useAuth();
+
+    const navStyle = {
+        color: 'black',
+        background:'white',
+        borderRedius:'5px'
+    }
     return (
         <div className="nav-menu">
                <div>
                     <h1>Prime <span>Hospital</span> Ltd</h1>
             </div>
+            {/* menu bar create */}
             <div className="menu">
-                 <NavLink to="/home">Home</NavLink>
-                 <NavLink to="/services">Services</NavLink>
-                <NavLink to="/doctors">Doctors</NavLink>
+                 <NavLink activeStyle={navStyle} to="/home">Home</NavLink>
+                 <NavLink activeStyle={navStyle} to="/services">Services</NavLink>
+                <NavLink activeStyle={navStyle} to="/doctors">Doctors</NavLink>
                 {user.displayName}
                 { user.email ?
-                    <NavLink to="/login" onClick={logOut}>LogOut</NavLink>
+                    <NavLink activeStyle={navStyle} to="/login" onClick={logOut}>LogOut</NavLink>
                     :
-                    <NavLink to="/login">Login</NavLink>
+                    <NavLink activeStyle={navStyle} to="/login">Login</NavLink>
                  }
-                 <NavLink to="/register">Register</NavLink>
+                 <NavLink activeStyle={navStyle} to="/register">Register</NavLink>
             </div>
         </div>
     );

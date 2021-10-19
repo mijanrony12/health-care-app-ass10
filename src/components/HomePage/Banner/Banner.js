@@ -3,6 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import './Banner.css'
 const Banner = () => {
     return (
+        // our campus slider create here
         <div className="banner">
                 <Carousel>
                                 <Carousel.Item>

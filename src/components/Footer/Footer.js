@@ -4,6 +4,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className="footer-section">
+            {/* company details here */}
             <div>
                 <h2>Our Parmanent Address</h2>
                 <p><i class="fas fa-map-marker-alt"></i> <span>Chowmuhoni Chowrasta,</span> <br /> <span>Begumgonj, Noakhali</span> </p>

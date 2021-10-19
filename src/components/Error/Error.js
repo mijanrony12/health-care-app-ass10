@@ -11,6 +11,7 @@ const Error = () => {
     return (
         <div className="error">
                <div>
+                     {/* create a error page */}
                     <img src={ error } alt="" />
                    <div className="btn-design">
                       <button onClick={goHomePage}>Previous Page</button>

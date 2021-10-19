@@ -7,6 +7,7 @@ const Services = () => {
     const [ services ] = useServices()
     console.log(services);
     return (
+        // total services section
         <div className="container">
                 <h1 className="text-center my-5 heading">Our Services</h1>
             <div className="row gy-4">

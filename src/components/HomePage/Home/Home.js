@@ -10,6 +10,7 @@ const Home = () => {
     const [ doctors ] = useDoctors()
     const [services]=useServices()
     return (
+        // website homepage create
         <div>
             <Banner></Banner>
             <div className="container">

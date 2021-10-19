@@ -1,0 +1,8 @@
+.details {
+  text-align: center;
+  width: 60%;
+  margin: 50px auto;
+}
+.details p {
+  text-align: justify;
+}

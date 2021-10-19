@@ -59,7 +59,7 @@ const useFirebase = () => {
     })
     }
     
-    return{signInUsingGoogle,handlePasswordEmailLogin,handleLogin, error, user,logOut, isLoading}
+    return{signInUsingGoogle,handlePasswordEmailLogin, error, user,logOut, isLoading}
 }
 
 export default useFirebase;
