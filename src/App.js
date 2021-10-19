@@ -10,11 +10,13 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/HomePage/Home/Home';
 import Services from './components/Services/Services';
+import AuthProvider from './Context/AuthProvider';
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <AuthProvider>
+            <BrowserRouter>
           <Header></Header>
                   <Switch>
                         <Route exact path="/">
@@ -44,6 +46,7 @@ function App() {
               </Switch>
         <Footer></Footer>
       </BrowserRouter>
+        </AuthProvider>
     </div>
   );
 }
