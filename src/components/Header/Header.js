@@ -20,6 +20,8 @@ const Header = () => {
                  <NavLink activeStyle={navStyle} to="/home">Home</NavLink>
                  <NavLink activeStyle={navStyle} to="/services">Services</NavLink>
                 <NavLink activeStyle={navStyle} to="/doctors">Doctors</NavLink>
+                <NavLink activeStyle={navStyle} to="/car">Our Car</NavLink>
+                
                 {user.displayName}
                 { user.email ?
                     <NavLink activeStyle={navStyle} to="/login" onClick={logOut}>LogOut</NavLink>

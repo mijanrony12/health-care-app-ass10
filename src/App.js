@@ -5,9 +5,11 @@ import Login from './components/Authentication/Login/Login';
 import Register from './components/Authentication/Login/Register/Register';
 import Details from './components/Details/Details';
 import Doctors from './components/Doctors/Doctors';
+
 import Error from './components/Error/Error';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
+import Ambulanc from './components/HomePage/Ambulane/Ambulanc';
 import Home from './components/HomePage/Home/Home';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Services from './components/Services/Services';
@@ -35,6 +37,10 @@ function App() {
                         <Route exact path="/doctors">
                                   <Doctors></Doctors>
                       </Route>
+                        <Route exact path="/car">
+                                  <Ambulanc></Ambulanc>
+                      </Route>
+                      
                         <Route exact path="/login">
                                   <Login></Login>
                       </Route>
