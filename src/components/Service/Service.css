@@ -6,7 +6,7 @@
   transition: 0.4s;
 }
 .service:hover {
-  transform: translate(-10px, 10px);
+  transform: scale(1.05);
 }
 .service img {
   width: 100%;

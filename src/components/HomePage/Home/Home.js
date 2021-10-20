@@ -8,7 +8,8 @@ import Banner from '../Banner/Banner';
 import './Home.css'
 const Home = () => {
     const [ doctors ] = useDoctors()
-    const [services]=useServices()
+    const [ services ] = useServices()
+    console.log(services);
     return (
         // website homepage create
         <div>

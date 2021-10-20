@@ -6,3 +6,25 @@
 .details p {
   text-align: justify;
 }
+.service-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.service-details:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 10px #000;
+}
+.img {
+  margin-right: 20px;
+}
+.img img {
+  border-radius: 10px;
+}
+.desc {
+  text-align: left;
+}
