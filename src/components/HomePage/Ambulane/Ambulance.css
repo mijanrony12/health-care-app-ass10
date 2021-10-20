@@ -1,3 +1,6 @@
+.ambulance {
+  padding-top: 100px;
+}
 .ambulance-section {
   display: flex;
   justify-content: space-around;
@@ -27,6 +30,15 @@
   margin-right: 20px;
 }
 
+@media (max-width: 992px) {
+  .ambulance-section {
+    display: block;
+    text-align: center;
+  }
+  .contact {
+    margin-top: 40px;
+  }
+}
 @media (max-width: 576px) {
   .ambulance-section {
     display: block;

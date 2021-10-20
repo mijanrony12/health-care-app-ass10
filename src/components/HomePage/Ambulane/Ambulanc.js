@@ -4,7 +4,7 @@ import ambulance from '../../../image/ambulance.png'
 const Ambulanc = () => {
     return (
         // our emergency services
-        <div >
+        <div className="ambulance">
             <h1 className="text-center mt-5 heading">Emergency Ambulance Service</h1>
             <div className="ambulance-section">
                 <div>

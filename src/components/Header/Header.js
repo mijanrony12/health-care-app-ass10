@@ -9,7 +9,7 @@ const Header = () => {
         color: '#ee5a24',
     }
     return (
-        <div className="nav-menu" sticky="top">
+        <div className="nav-menu fixed-top" >
                <div>
                     <h1>Prime <span>Hospital</span> Ltd</h1>
             </div>

@@ -7,7 +7,7 @@ const Services = () => {
     const [ services ] = useServices()
     return (
         // total services section
-        <div className="container">
+        <div className="container services-container">
                 <h1 className="text-center my-5 heading">Our Services</h1>
             <div className="row gy-4 services">
                   {
@@ -17,6 +17,7 @@ const Services = () => {
                     ></Service>)
                   }
             </div>
+           
         </div>
     );
 };

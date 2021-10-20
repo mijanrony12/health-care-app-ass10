@@ -4,7 +4,9 @@ const Doctor = ({ doctor }) => {
     const { img, name} = doctor;
     return (
             //    show our doctors
-                     <div class="col-md-4 container">
+        <>
+             
+                      <div class="col-md-6 col-lg-4 gy-4 container">
                             <div class="work-item">
                                 <img src={img} alt="" />
                                 <div class="work-overlay">
@@ -16,8 +18,10 @@ const Doctor = ({ doctor }) => {
                                         </ul>
                                   </div>
                                 </div>
-                            </div>
-                     </div>
+                        </div>
+                </div>
+              
+      </>
     );
 };
 
