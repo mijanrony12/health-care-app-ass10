@@ -38,6 +38,21 @@ const useFirebase = () => {
 
     
     const handlePasswordEmailLogin = (email, password) => {
+        if (password.length < 6)
+        {
+            setError('plz give me at least 6 digit')
+            return
+        }
+        if (!/(?=.*[A-Z].*[A-Z])/.test(password))
+        {
+            setError('need  two UpperCase')
+            return
+        }
+        if (!/(?=.*[0-9].*[0-9])/.test(password))
+        {
+            setError('giv me two Number');
+            return
+        }
           createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {
                setUser(result.user)
@@ -59,7 +74,7 @@ const useFirebase = () => {
     })
     }
     
-    return{signInUsingGoogle,handlePasswordEmailLogin, error, user,logOut, isLoading}
+    return{signInUsingGoogle,handlePasswordEmailLogin,handleLogin, error, user,logOut, isLoading}
 }
 
 export default useFirebase;

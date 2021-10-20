@@ -6,12 +6,10 @@ const Header = () => {
     const { user, logOut } = useAuth();
 
     const navStyle = {
-        color: 'black',
-        background:'white',
-        borderRedius:'5px'
+        color: '#ee5a24',
     }
     return (
-        <div className="nav-menu">
+        <div className="nav-menu" sticky="top">
                <div>
                     <h1>Prime <span>Hospital</span> Ltd</h1>
             </div>

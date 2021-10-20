@@ -73,7 +73,7 @@ const { signInUsingGoogle,handlePasswordEmailLogin,user,handleLogin,error } = us
         </form>
         
         :
-        <form onSubmit={handleRegister}>
+        <form onSubmit={handleLoginForm}>
            <h1>please Login</h1>
   <div className="row mb-3">
     <label for="inputEmail3" className="col-sm-2 col-form-label">Email</label>

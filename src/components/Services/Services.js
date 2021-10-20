@@ -5,7 +5,6 @@ import Service from '../Service/Service';
 
 const Services = () => {
     const [ services ] = useServices()
-    console.log(services);
     return (
         // total services section
         <div className="container">
